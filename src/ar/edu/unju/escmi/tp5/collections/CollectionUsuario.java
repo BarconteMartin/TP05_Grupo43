@@ -28,7 +28,6 @@ public class CollectionUsuario {
         }
         return null;
     }
-
     public static List<Usuario> listarUsuarios() {
         return usuarios;
     }

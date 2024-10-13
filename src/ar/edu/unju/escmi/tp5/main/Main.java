@@ -167,6 +167,7 @@ public class Main {
             return;
         }
 
+        
         System.out.print("Ingrese la fecha de devolución (YYYY-MM-DD): ");
         String fechaDevolucionStr = sc.nextLine();
         LocalDate fechaDevolucion = FechaUtil.obtenerFechaDesdeString(fechaDevolucionStr);

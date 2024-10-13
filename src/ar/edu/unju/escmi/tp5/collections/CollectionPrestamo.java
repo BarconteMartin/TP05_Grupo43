@@ -12,6 +12,7 @@ public class CollectionPrestamo {
         return idCounter++;
     }
     
+    
     public static void agregarPrestamo(Prestamo prestamo) {
         prestamos.add(prestamo);
     }

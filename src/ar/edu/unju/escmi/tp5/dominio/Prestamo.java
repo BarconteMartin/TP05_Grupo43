@@ -11,6 +11,7 @@ public class Prestamo {
     private Libro libro;
     private Usuario usuario;
 
+    
     // Constructor original
     public Prestamo(int id, LocalDate fechaPrestamo, Libro libro, Usuario usuario) {
         this.id = id;

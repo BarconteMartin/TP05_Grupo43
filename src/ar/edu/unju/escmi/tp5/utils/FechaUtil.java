@@ -12,8 +12,8 @@ public class FechaUtil {
             return null; 
         }
     }
-
     public static LocalDate obtenerFechaActual() {
         return LocalDate.now();
     }
+    
 }
